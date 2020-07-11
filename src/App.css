@@ -1,4 +1,5 @@
-.App {
+/* this is for shadow generator........ */
+/* .App {
   display:flex;
   align-items:center;
   justify-content:space-around;
@@ -11,9 +12,32 @@
 .box{
   text-align:center;
   padding:20vh 0px;
-  
   width:40vw;
   height:50vh;
  background-color: blueviolet;
  color:whitesmoke;
+} */
+
+
+
+.App{
+  text-align:center;
+}
+.mydiv{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 7%;
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+}
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+
+
+}
+.item{
+  width:30%;
+  margin:5px;
 }
